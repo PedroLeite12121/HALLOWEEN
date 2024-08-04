@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+section{
+    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    
+}
+
+h1{
+    font-size: 20px;
+    font-family: ubuntu;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+h1:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+#aboboras{
+    background-size: cover;
+    background-image: url(./habitosIMG/jackolantern.png);
+}
+
+#historias{
+    background-size: cover;
+    background-image: url(./habitosIMG/fantasma.png);
+}
+
+#doces{
+    background-size: cover;
+    background-image: url(./habitosIMG/doces.png);
+}
+
+#cores{
+    background-size: cover;
+    background-image: url(./habitosIMG/cores.png);
+}
+
+#fantasias{
+    background-size: cover;
+    background-image: url(./habitosIMG/fantasias.png);
+}
+
+span{
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    opacity: 0.9;
+    background-color: rgb(0, 0, 0);
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
