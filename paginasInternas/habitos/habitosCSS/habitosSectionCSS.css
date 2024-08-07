@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 section{
-    padding: 20px;
+    padding: 18px;
     background-color: rgba(0, 0, 0, 0.596);
     justify-content: space-evenly;
     display: flex;
