@@ -21,18 +21,41 @@
         <a href="../dicas/">Dicas</a>
         <a href="../obrasArte/">Obras de Arte</a>
     </nav>
-    <header>
+    <header id="text">
         Halloween - Hábitos e Costumes
     </header>
 
-    <section>
-        <a href="./habitosPaginasInternas/habitosFantasias.html"><h1 id="fantasias"><span>Fantasias</span></h1></a>
-        <a href="./habitosPaginasInternas/habitosHistorias.html"><h1 id="historias"><span>Histórias de Terror</span></h1></a>
-        <a href="./habitosPaginasInternas/habitosAboboras.html"><h1 id="aboboras"><span>Áboboras Lanterna</span></h1></a>
-        <a href="./habitosPaginasInternas/habitosDoces.html"><h1 id="doces"><span>Doces ou Travessuras</span></h1></a>
-        <a href="./habitosPaginasInternas/habitosCores.html"><h1 id="cores"><span>Cores Preto e Laranja</span></h1></a>
+    <section id="sectionExt" class="csectionExt">
+        <a href="javascript:fsection('fantasia')">
+            <h1 id="fantasias">
+                <span>Fantasias</span>
+            </h1>
+        </a>
+        <a href="javascript:fsection('historia')">
+            <h1 id="historias">
+                <span>Histórias de Terror</span>
+            </h1>
+        </a>
+        <a href="javascript:fsection('abobora')">
+            <h1 id="aboboras">
+                <span>Áboboras Lanterna</span>
+            </h1>
+        </a>
+        <a href="javascript:fsection('doce')">
+            <h1 id="doces">
+                <span>Doces ou Travessuras</span>
+            </h1>
+        </a>
+        <a href="javascript:fsection('cor')">
+            <h1 id="cores">
+                <span>Cores Preto e Laranja</span>
+            </h1>
+        </a>
     </section>
-
+    <section id="sectionInt" class="csectionInt">
+        <img id="img" src="./habitosIMG/">
+        <p>um texto muito aleatorio</p>
+    </section>
     <a href="../../index.html" id="retornar">Retornar</a>
     <footer>
         <h2>Membros</h2>
@@ -42,7 +65,6 @@
         <p>Daniel Servini</p>
         <p>Gustavo Cardoso</p>
     </footer>
-
-
+    <script src="./js/java.js"></script>
 </body>
 </html>
