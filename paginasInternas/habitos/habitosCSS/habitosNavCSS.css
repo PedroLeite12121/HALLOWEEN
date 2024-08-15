@@ -7,18 +7,17 @@ a{
 }
 
 body{
-    background-image: url(../../img/fundo_nav.jpg);
+    margin: 0;
+    background-image: url(../../../img/fundo_nav.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
 }
 nav {
-    
     background-color: black;
     padding: 20px;
     display: flex;
     justify-content: space-between ;
-
     height: 50px;
     align-items: center;
     opacity: 0.8;
