@@ -16,7 +16,7 @@ function section(elemento) { // Função que ativa as sections internas
         case 'historia':
             header = 'Hábitos e Costumes - Histórias de Terror';
             imagem = './habitosIMG/fantasma.png';
-            descricao = 'As histórias de terror no Halloween faz parte da tradição, elas normalmente são contadas oralmente, sempre tentando causar um suspense e medo nos ouvintes. <br><br> Seja nas lendas, nas histórias contadas ao redor da fogueira ou nos mitos usados para assustar filhos desobedientes. As histórias de terror chegaram em 1794 com a publicação de “O castelo de Otranto”, de Horace Walpole';
+            descricao = 'As histórias de terror no Halloween fazem parte de sua tradição, elas normalmente são contadas oralmente, sempre tentando causar um suspense e medo nos ouvintes. <br><br> Seja nas lendas, nas histórias contadas ao redor da fogueira ou nos mitos usados para assustar filhos desobedientes. As histórias de terror chegaram em 1794 com a publicação de “O castelo de Otranto”, de Horace Walpole';
             break;
         case 'abobora':
             header = 'Hábitos e Costumes - Abóbora Lanterna';
