@@ -26,7 +26,7 @@ h1{
     border: rgb(0, 0, 0) solid 3px;
     font-size: 22px;
     font-family: ubuntu;
-    border-radius: 9px;
+    border-radius: 4px;
     display: flex;
     justify-content: center;
     width: 320px;
@@ -95,6 +95,7 @@ img{
     margin-left: 60px;
     font-size: 50px;
     font-family: changa one;
+    margin-right: 10px;
 }
 
 
@@ -104,8 +105,6 @@ img{
 }
 
 span{
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     align-items: center;
     height: 40px;
     justify-content: center;
